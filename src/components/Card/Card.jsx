@@ -1,59 +1,49 @@
-import { Chip, Tooltip } from "@mui/material";
 import React from "react";
-import { Link } from "react-router-dom";
-import styles from "./Card.module.css";
+import { Tooltip } from "@mui/material";
+import styles from "./card.module.css";
+import { useNavigate } from "react-router-dom";
 
-function Card({ data, type }) {
-  const getCard = (type) => {
-    switch (type) {
-      case "album": {
-        const { image, follows, title, slug, songs } = data;
-        return (
-          <Tooltip title={`${songs.length} songs`} placement="top" arrow>
-            <Link to={`/album/${slug}`}>
-              <div className={styles.wrapper}>
-                <div className={styles.card}>
-                  <img src={image} alt="album" loading="lazy" />
-                  <div className={styles.banner}>
-                    <Chip
-                      label={`${follows} Follows`}
-                      size="small"
-                      className={styles.chip}
-                    />
-                  </div>
-                </div>
-                <div className={styles.titleWrapper}>
-                  <p>{title}</p>
-                </div>
-              </div>
-            </Link>
-          </Tooltip>
-        );
-      }
-      case "song": {
-        const { image, likes, title } = data;
+const Card = ({ data, type }) => {
+  let navigate = useNavigate();
+  const getCard = () => {
+    const commonContent = (
+      <div
+        className={styles.cardImg}
+        onClick={() =>
+          type !== "songs" &&
+          navigate(`/album/${data.slug}`, { state: { album: data } })
+        }
+      >
+        <img src={data.image} alt={type === "album" ? "album" : data.title} />
+        <p>
+          {((type === "album" ? data.follows : data.likes) / 1000).toFixed(1)}
+          {data.follows > 999999 || data.likes > 999999 ? "m" : "k"}{" "}
+          {type === "album" ? "Follows" : "Likes"}
+        </p>
+      </div>
+    );
 
-        return (
-          <div className={styles.wrapper}>
-            <div className={styles.card}>
-              <img src={image} alt="song" loading="lazy" />
-              <div className={styles.banner}>
-                <div className={styles.pill}>
-                  <p>{likes} Likes</p>
-                </div>
-              </div>
-            </div>
-            <div className={styles.titleWrapper}>
-              <p>{title}</p>
-            </div>
+    return (
+      <Tooltip
+        title={
+          type === "album"
+            ? `${data.songs.length} songs`
+            : `Label : ${data.genre.label}`
+        }
+        placement="top"
+        arrow
+      >
+        <div className={styles.card}>
+          {commonContent}
+          <div>
+            <h3>{data.title}</h3>
           </div>
-        );
-      }
-      default:
-        return <></>;
-    }
+        </div>
+      </Tooltip>
+    );
   };
-  return getCard(type);
-}
+
+  return type === "album" || type === "songs" ? getCard() : null;
+};
 
 export default Card;
