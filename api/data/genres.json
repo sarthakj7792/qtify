@@ -1,0 +1,28 @@
+{
+    "data": [
+        {
+            "key": "rock",
+            "label": "Rock"
+        },
+        {
+            "key": "pop",
+            "label": "Pop"
+        },
+        {
+            "key": "jazz",
+            "label": "Jazz"
+        },
+        {
+            "key": "blues",
+            "label": "Blues"
+        },
+        {
+            "key": "edm",
+            "label": "EDM"
+        },
+        {
+            "key": "hiphop",
+            "label": "Hip Hop"
+        }
+    ]
+}

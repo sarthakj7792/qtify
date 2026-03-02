@@ -1,0 +1,572 @@
+{
+    "top": [
+        {
+            "id": "top-1",
+            "slug": "broadway-hits",
+            "title": "Broadway Hits",
+            "image": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=300&h=300&fit=crop",
+            "follows": 234500,
+            "description": "The best of Broadway musicals curated for you.",
+            "songs": [
+                {
+                    "id": "song-t1-1",
+                    "title": "Defying Gravity",
+                    "artists": [
+                        "Idina Menzel",
+                        "Kristin Chenoweth"
+                    ],
+                    "image": "https://images.unsplash.com/photo-1514320291840-2e0a9bf2a9ae?w=100&h=100&fit=crop",
+                    "durationInMs": 318000,
+                    "likes": 45000
+                },
+                {
+                    "id": "song-t1-2",
+                    "title": "Memory",
+                    "artists": [
+                        "Elaine Paige"
+                    ],
+                    "image": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=100&h=100&fit=crop",
+                    "durationInMs": 242000,
+                    "likes": 38000
+                },
+                {
+                    "id": "song-t1-3",
+                    "title": "One Day More",
+                    "artists": [
+                        "Les Misérables Cast"
+                    ],
+                    "image": "https://images.unsplash.com/photo-1507838153414-b4b713384a76?w=100&h=100&fit=crop",
+                    "durationInMs": 275000,
+                    "likes": 52000
+                },
+                {
+                    "id": "song-t1-4",
+                    "title": "Tonight",
+                    "artists": [
+                        "Leonard Bernstein"
+                    ],
+                    "image": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=100&h=100&fit=crop",
+                    "durationInMs": 198000,
+                    "likes": 29000
+                },
+                {
+                    "id": "song-t1-5",
+                    "title": "The Phantom of the Opera",
+                    "artists": [
+                        "Andrew Lloyd Webber"
+                    ],
+                    "image": "https://images.unsplash.com/photo-1459749411175-04bf5292ceea?w=100&h=100&fit=crop",
+                    "durationInMs": 345000,
+                    "likes": 61000
+                }
+            ]
+        },
+        {
+            "id": "top-2",
+            "slug": "indie-vibes",
+            "title": "Indie Vibes",
+            "image": "https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=300&h=300&fit=crop",
+            "follows": 178200,
+            "description": "Chill indie tracks for your everyday playlist.",
+            "songs": [
+                {
+                    "id": "song-t2-1",
+                    "title": "Electric Feel",
+                    "artists": [
+                        "MGMT"
+                    ],
+                    "image": "https://images.unsplash.com/photo-1485579149621-3123dd979885?w=100&h=100&fit=crop",
+                    "durationInMs": 227000,
+                    "likes": 72000
+                },
+                {
+                    "id": "song-t2-2",
+                    "title": "Skinny Love",
+                    "artists": [
+                        "Bon Iver"
+                    ],
+                    "image": "https://images.unsplash.com/photo-1446057032654-9d8885db76c6?w=100&h=100&fit=crop",
+                    "durationInMs": 232000,
+                    "likes": 54000
+                },
+                {
+                    "id": "song-t2-3",
+                    "title": "Take Me Out",
+                    "artists": [
+                        "Franz Ferdinand"
+                    ],
+                    "image": "https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?w=100&h=100&fit=crop",
+                    "durationInMs": 237000,
+                    "likes": 48000
+                },
+                {
+                    "id": "song-t2-4",
+                    "title": "Midnight City",
+                    "artists": [
+                        "M83"
+                    ],
+                    "image": "https://images.unsplash.com/photo-1462965326201-d02e4f455804?w=100&h=100&fit=crop",
+                    "durationInMs": 244000,
+                    "likes": 65000
+                }
+            ]
+        },
+        {
+            "id": "top-3",
+            "slug": "classical-essentials",
+            "title": "Classical Essentials",
+            "image": "https://images.unsplash.com/photo-1507838153414-b4b713384a76?w=300&h=300&fit=crop",
+            "follows": 312000,
+            "description": "Timeless classical masterpieces.",
+            "songs": [
+                {
+                    "id": "song-t3-1",
+                    "title": "Moonlight Sonata",
+                    "artists": [
+                        "Ludwig van Beethoven"
+                    ],
+                    "image": "https://images.unsplash.com/photo-1520523839897-bd0b52f945a0?w=100&h=100&fit=crop",
+                    "durationInMs": 390000,
+                    "likes": 89000
+                },
+                {
+                    "id": "song-t3-2",
+                    "title": "Four Seasons - Spring",
+                    "artists": [
+                        "Antonio Vivaldi"
+                    ],
+                    "image": "https://images.unsplash.com/photo-1465847899084-d164df4dedc6?w=100&h=100&fit=crop",
+                    "durationInMs": 620000,
+                    "likes": 76000
+                },
+                {
+                    "id": "song-t3-3",
+                    "title": "Clair de Lune",
+                    "artists": [
+                        "Claude Debussy"
+                    ],
+                    "image": "https://images.unsplash.com/photo-1513883049090-d0b7439799bf?w=100&h=100&fit=crop",
+                    "durationInMs": 302000,
+                    "likes": 93000
+                }
+            ]
+        },
+        {
+            "id": "top-4",
+            "slug": "jazz-standards",
+            "title": "Jazz Standards",
+            "image": "https://images.unsplash.com/photo-1415201364774-f6f0bb35f28f?w=300&h=300&fit=crop",
+            "follows": 198000,
+            "description": "The greatest jazz recordings of all time.",
+            "songs": [
+                {
+                    "id": "song-t4-1",
+                    "title": "Take Five",
+                    "artists": [
+                        "Dave Brubeck"
+                    ],
+                    "image": "https://images.unsplash.com/photo-1511192336575-5a79af67a629?w=100&h=100&fit=crop",
+                    "durationInMs": 324000,
+                    "likes": 82000
+                },
+                {
+                    "id": "song-t4-2",
+                    "title": "So What",
+                    "artists": [
+                        "Miles Davis"
+                    ],
+                    "image": "https://images.unsplash.com/photo-1415201364774-f6f0bb35f28f?w=100&h=100&fit=crop",
+                    "durationInMs": 562000,
+                    "likes": 74000
+                },
+                {
+                    "id": "song-t4-3",
+                    "title": "Fly Me to the Moon",
+                    "artists": [
+                        "Frank Sinatra"
+                    ],
+                    "image": "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=100&h=100&fit=crop",
+                    "durationInMs": 235000,
+                    "likes": 96000
+                }
+            ]
+        },
+        {
+            "id": "top-5",
+            "slug": "pop-anthems",
+            "title": "Pop Anthems",
+            "image": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=300&h=300&fit=crop",
+            "follows": 567000,
+            "description": "Chart-topping pop hits that everyone loves.",
+            "songs": [
+                {
+                    "id": "song-t5-1",
+                    "title": "Shape of You",
+                    "artists": [
+                        "Ed Sheeran"
+                    ],
+                    "image": "https://images.unsplash.com/photo-1484755560615-a4c64e778a6c?w=100&h=100&fit=crop",
+                    "durationInMs": 234000,
+                    "likes": 120000
+                },
+                {
+                    "id": "song-t5-2",
+                    "title": "Blinding Lights",
+                    "artists": [
+                        "The Weeknd"
+                    ],
+                    "image": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=100&h=100&fit=crop",
+                    "durationInMs": 202000,
+                    "likes": 115000
+                },
+                {
+                    "id": "song-t5-3",
+                    "title": "Levitating",
+                    "artists": [
+                        "Dua Lipa"
+                    ],
+                    "image": "https://images.unsplash.com/photo-1459749411175-04bf5292ceea?w=100&h=100&fit=crop",
+                    "durationInMs": 203000,
+                    "likes": 98000
+                },
+                {
+                    "id": "song-t5-4",
+                    "title": "Stay",
+                    "artists": [
+                        "The Kid LAROI",
+                        "Justin Bieber"
+                    ],
+                    "image": "https://images.unsplash.com/photo-1514320291840-2e0a9bf2a9ae?w=100&h=100&fit=crop",
+                    "durationInMs": 142000,
+                    "likes": 105000
+                }
+            ]
+        },
+        {
+            "id": "top-6",
+            "slug": "rock-classics",
+            "title": "Rock Classics",
+            "image": "https://images.unsplash.com/photo-1498038432885-c6f3f1b912ee?w=300&h=300&fit=crop",
+            "follows": 445000,
+            "description": "Legendary rock tracks from the greatest bands.",
+            "songs": [
+                {
+                    "id": "song-t6-1",
+                    "title": "Bohemian Rhapsody",
+                    "artists": [
+                        "Queen"
+                    ],
+                    "image": "https://images.unsplash.com/photo-1498038432885-c6f3f1b912ee?w=100&h=100&fit=crop",
+                    "durationInMs": 354000,
+                    "likes": 140000
+                },
+                {
+                    "id": "song-t6-2",
+                    "title": "Stairway to Heaven",
+                    "artists": [
+                        "Led Zeppelin"
+                    ],
+                    "image": "https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?w=100&h=100&fit=crop",
+                    "durationInMs": 482000,
+                    "likes": 130000
+                },
+                {
+                    "id": "song-t6-3",
+                    "title": "Hotel California",
+                    "artists": [
+                        "Eagles"
+                    ],
+                    "image": "https://images.unsplash.com/photo-1485579149621-3123dd979885?w=100&h=100&fit=crop",
+                    "durationInMs": 391000,
+                    "likes": 125000
+                }
+            ]
+        },
+        {
+            "id": "top-7",
+            "slug": "edm-bangers",
+            "title": "EDM Bangers",
+            "image": "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=300&h=300&fit=crop",
+            "follows": 389000,
+            "description": "High-energy electronic dance music.",
+            "songs": [
+                {
+                    "id": "song-t7-1",
+                    "title": "Titanium",
+                    "artists": [
+                        "David Guetta",
+                        "Sia"
+                    ],
+                    "image": "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=100&h=100&fit=crop",
+                    "durationInMs": 245000,
+                    "likes": 88000
+                },
+                {
+                    "id": "song-t7-2",
+                    "title": "Lean On",
+                    "artists": [
+                        "Major Lazer",
+                        "DJ Snake"
+                    ],
+                    "image": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=100&h=100&fit=crop",
+                    "durationInMs": 176000,
+                    "likes": 92000
+                }
+            ]
+        }
+    ],
+    "new": [
+        {
+            "id": "new-1",
+            "slug": "midnight-dreams",
+            "title": "Midnight Dreams",
+            "image": "https://images.unsplash.com/photo-1459749411175-04bf5292ceea?w=300&h=300&fit=crop",
+            "follows": 89000,
+            "description": "Late night vibes and dreamy soundscapes.",
+            "songs": [
+                {
+                    "id": "song-n1-1",
+                    "title": "After Hours",
+                    "artists": [
+                        "The Weeknd"
+                    ],
+                    "image": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=100&h=100&fit=crop",
+                    "durationInMs": 361000,
+                    "likes": 78000
+                },
+                {
+                    "id": "song-n1-2",
+                    "title": "Nightfall",
+                    "artists": [
+                        "Petit Biscuit"
+                    ],
+                    "image": "https://images.unsplash.com/photo-1514320291840-2e0a9bf2a9ae?w=100&h=100&fit=crop",
+                    "durationInMs": 215000,
+                    "likes": 34000
+                },
+                {
+                    "id": "song-n1-3",
+                    "title": "Moonlight",
+                    "artists": [
+                        "XXXTENTACION"
+                    ],
+                    "image": "https://images.unsplash.com/photo-1446057032654-9d8885db76c6?w=100&h=100&fit=crop",
+                    "durationInMs": 135000,
+                    "likes": 91000
+                }
+            ]
+        },
+        {
+            "id": "new-2",
+            "slug": "acoustic-mornings",
+            "title": "Acoustic Mornings",
+            "image": "https://images.unsplash.com/photo-1510915361894-db8b60106cb1?w=300&h=300&fit=crop",
+            "follows": 67000,
+            "description": "Gentle acoustic tracks to start your day.",
+            "songs": [
+                {
+                    "id": "song-n2-1",
+                    "title": "Banana Pancakes",
+                    "artists": [
+                        "Jack Johnson"
+                    ],
+                    "image": "https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=100&h=100&fit=crop",
+                    "durationInMs": 191000,
+                    "likes": 42000
+                },
+                {
+                    "id": "song-n2-2",
+                    "title": "Ho Hey",
+                    "artists": [
+                        "The Lumineers"
+                    ],
+                    "image": "https://images.unsplash.com/photo-1507838153414-b4b713384a76?w=100&h=100&fit=crop",
+                    "durationInMs": 163000,
+                    "likes": 58000
+                },
+                {
+                    "id": "song-n2-3",
+                    "title": "Riptide",
+                    "artists": [
+                        "Vance Joy"
+                    ],
+                    "image": "https://images.unsplash.com/photo-1465847899084-d164df4dedc6?w=100&h=100&fit=crop",
+                    "durationInMs": 204000,
+                    "likes": 67000
+                }
+            ]
+        },
+        {
+            "id": "new-3",
+            "slug": "hip-hop-essentials",
+            "title": "Hip Hop Essentials",
+            "image": "https://images.unsplash.com/photo-1571330735066-03aaa9429d89?w=300&h=300&fit=crop",
+            "follows": 234000,
+            "description": "Essential hip hop tracks old and new.",
+            "songs": [
+                {
+                    "id": "song-n3-1",
+                    "title": "Sicko Mode",
+                    "artists": [
+                        "Travis Scott"
+                    ],
+                    "image": "https://images.unsplash.com/photo-1571330735066-03aaa9429d89?w=100&h=100&fit=crop",
+                    "durationInMs": 312000,
+                    "likes": 105000
+                },
+                {
+                    "id": "song-n3-2",
+                    "title": "God's Plan",
+                    "artists": [
+                        "Drake"
+                    ],
+                    "image": "https://images.unsplash.com/photo-1484755560615-a4c64e778a6c?w=100&h=100&fit=crop",
+                    "durationInMs": 199000,
+                    "likes": 132000
+                },
+                {
+                    "id": "song-n3-3",
+                    "title": "Humble",
+                    "artists": [
+                        "Kendrick Lamar"
+                    ],
+                    "image": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=100&h=100&fit=crop",
+                    "durationInMs": 177000,
+                    "likes": 118000
+                }
+            ]
+        },
+        {
+            "id": "new-4",
+            "slug": "latin-heat",
+            "title": "Latin Heat",
+            "image": "https://images.unsplash.com/photo-1504898770365-14faca6a7320?w=300&h=300&fit=crop",
+            "follows": 345000,
+            "description": "Hot Latin rhythms that make you dance.",
+            "songs": [
+                {
+                    "id": "song-n4-1",
+                    "title": "Despacito",
+                    "artists": [
+                        "Luis Fonsi",
+                        "Daddy Yankee"
+                    ],
+                    "image": "https://images.unsplash.com/photo-1504898770365-14faca6a7320?w=100&h=100&fit=crop",
+                    "durationInMs": 228000,
+                    "likes": 145000
+                },
+                {
+                    "id": "song-n4-2",
+                    "title": "Vivir Mi Vida",
+                    "artists": [
+                        "Marc Anthony"
+                    ],
+                    "image": "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=100&h=100&fit=crop",
+                    "durationInMs": 258000,
+                    "likes": 87000
+                }
+            ]
+        },
+        {
+            "id": "new-5",
+            "slug": "lofi-study-beats",
+            "title": "Lofi Study Beats",
+            "image": "https://images.unsplash.com/photo-1520523839897-bd0b52f945a0?w=300&h=300&fit=crop",
+            "follows": 156000,
+            "description": "Cozy lofi beats to study and relax to.",
+            "songs": [
+                {
+                    "id": "song-n5-1",
+                    "title": "Snowflake",
+                    "artists": [
+                        "Lofi Dreamer"
+                    ],
+                    "image": "https://images.unsplash.com/photo-1520523839897-bd0b52f945a0?w=100&h=100&fit=crop",
+                    "durationInMs": 180000,
+                    "likes": 23000
+                },
+                {
+                    "id": "song-n5-2",
+                    "title": "Coffee Shop",
+                    "artists": [
+                        "Chillhop Music"
+                    ],
+                    "image": "https://images.unsplash.com/photo-1513883049090-d0b7439799bf?w=100&h=100&fit=crop",
+                    "durationInMs": 210000,
+                    "likes": 31000
+                },
+                {
+                    "id": "song-n5-3",
+                    "title": "Rainy Day",
+                    "artists": [
+                        "Study Girl"
+                    ],
+                    "image": "https://images.unsplash.com/photo-1511192336575-5a79af67a629?w=100&h=100&fit=crop",
+                    "durationInMs": 195000,
+                    "likes": 28000
+                }
+            ]
+        },
+        {
+            "id": "new-6",
+            "slug": "r-n-b-soul",
+            "title": "R&B Soul",
+            "image": "https://images.unsplash.com/photo-1462965326201-d02e4f455804?w=300&h=300&fit=crop",
+            "follows": 278000,
+            "description": "Smooth R&B and soulful vibes.",
+            "songs": [
+                {
+                    "id": "song-n6-1",
+                    "title": "Earned It",
+                    "artists": [
+                        "The Weeknd"
+                    ],
+                    "image": "https://images.unsplash.com/photo-1462965326201-d02e4f455804?w=100&h=100&fit=crop",
+                    "durationInMs": 252000,
+                    "likes": 76000
+                },
+                {
+                    "id": "song-n6-2",
+                    "title": "Best Part",
+                    "artists": [
+                        "Daniel Caesar",
+                        "H.E.R."
+                    ],
+                    "image": "https://images.unsplash.com/photo-1459749411175-04bf5292ceea?w=100&h=100&fit=crop",
+                    "durationInMs": 217000,
+                    "likes": 83000
+                }
+            ]
+        },
+        {
+            "id": "new-7",
+            "slug": "summer-hits-2024",
+            "title": "Summer Hits 2024",
+            "image": "https://images.unsplash.com/photo-1484755560615-a4c64e778a6c?w=300&h=300&fit=crop",
+            "follows": 420000,
+            "description": "The hottest tracks of summer 2024.",
+            "songs": [
+                {
+                    "id": "song-n7-1",
+                    "title": "Cruel Summer",
+                    "artists": [
+                        "Taylor Swift"
+                    ],
+                    "image": "https://images.unsplash.com/photo-1484755560615-a4c64e778a6c?w=100&h=100&fit=crop",
+                    "durationInMs": 178000,
+                    "likes": 138000
+                },
+                {
+                    "id": "song-n7-2",
+                    "title": "Flowers",
+                    "artists": [
+                        "Miley Cyrus"
+                    ],
+                    "image": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=100&h=100&fit=crop",
+                    "durationInMs": 200000,
+                    "likes": 142000
+                }
+            ]
+        }
+    ]
+}

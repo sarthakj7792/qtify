@@ -2,46 +2,50 @@ import axios from "axios";
 
 const config = {
     endpoint: {
-        TopAlbum: "https://qtify-backend-labs.crio.do/albums/top",
-        NewAlbum: "https://qtify-backend-labs.crio.do/albums/new",
-        Songs: "https://qtify-backend-labs.crio.do/songs",
-        genres: "https://qtify-backend-labs.crio.do/genres",
+        TopAlbum: "/api/albums/top",
+        NewAlbum: "/api/albums/new",
+        Songs: "/api/songs",
+        genres: "/api/genres",
     },
 };
 
-const fetchTopAlbum = async() => {
+const fetchTopAlbum = async () => {
     try {
         let res = await axios.get(config.endpoint.TopAlbum);
         return res.data;
     } catch (err) {
-        return new Error("Failed to Fetch !", err);
+        console.error("Failed to fetch top albums:", err);
+        return [];
     }
 };
 
-const fetchNewAlbum = async() => {
+const fetchNewAlbum = async () => {
     try {
         let res = await axios.get(config["endpoint"]["NewAlbum"]);
         return res.data;
     } catch (err) {
-        return new Error("Failed to Fetch !", err);
+        console.error("Failed to fetch new albums:", err);
+        return [];
     }
 };
 
-const fetchSongs = async() => {
+const fetchSongs = async () => {
     try {
         let res = await axios.get(config.endpoint.Songs);
         return res.data;
     } catch (err) {
-        return new Error("Failed to Fetch !", err);
+        console.error("Failed to fetch songs:", err);
+        return [];
     }
 };
 
-const fetchGenres = async() => {
+const fetchGenres = async () => {
     try {
         let res = await axios.get(config["endpoint"].genres);
         return res.data;
     } catch (err) {
-        return new Error("Failed to Fetch !", "err");
+        console.error("Failed to fetch genres:", err);
+        return { data: [] };
     }
 };
 

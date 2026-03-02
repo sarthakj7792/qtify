@@ -1,0 +1,286 @@
+[
+    {
+        "id": "s1",
+        "title": "Blinding Lights",
+        "artists": [
+            "The Weeknd"
+        ],
+        "image": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=100&h=100&fit=crop",
+        "durationInMs": 202000,
+        "likes": 115000,
+        "genre": {
+            "key": "pop",
+            "label": "Pop"
+        }
+    },
+    {
+        "id": "s2",
+        "title": "Shape of You",
+        "artists": [
+            "Ed Sheeran"
+        ],
+        "image": "https://images.unsplash.com/photo-1484755560615-a4c64e778a6c?w=100&h=100&fit=crop",
+        "durationInMs": 234000,
+        "likes": 120000,
+        "genre": {
+            "key": "pop",
+            "label": "Pop"
+        }
+    },
+    {
+        "id": "s3",
+        "title": "Bohemian Rhapsody",
+        "artists": [
+            "Queen"
+        ],
+        "image": "https://images.unsplash.com/photo-1498038432885-c6f3f1b912ee?w=100&h=100&fit=crop",
+        "durationInMs": 354000,
+        "likes": 140000,
+        "genre": {
+            "key": "rock",
+            "label": "Rock"
+        }
+    },
+    {
+        "id": "s4",
+        "title": "Take Five",
+        "artists": [
+            "Dave Brubeck"
+        ],
+        "image": "https://images.unsplash.com/photo-1511192336575-5a79af67a629?w=100&h=100&fit=crop",
+        "durationInMs": 324000,
+        "likes": 82000,
+        "genre": {
+            "key": "jazz",
+            "label": "Jazz"
+        }
+    },
+    {
+        "id": "s5",
+        "title": "Sicko Mode",
+        "artists": [
+            "Travis Scott"
+        ],
+        "image": "https://images.unsplash.com/photo-1571330735066-03aaa9429d89?w=100&h=100&fit=crop",
+        "durationInMs": 312000,
+        "likes": 105000,
+        "genre": {
+            "key": "hiphop",
+            "label": "Hip Hop"
+        }
+    },
+    {
+        "id": "s6",
+        "title": "Stairway to Heaven",
+        "artists": [
+            "Led Zeppelin"
+        ],
+        "image": "https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?w=100&h=100&fit=crop",
+        "durationInMs": 482000,
+        "likes": 130000,
+        "genre": {
+            "key": "rock",
+            "label": "Rock"
+        }
+    },
+    {
+        "id": "s7",
+        "title": "Titanium",
+        "artists": [
+            "David Guetta",
+            "Sia"
+        ],
+        "image": "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=100&h=100&fit=crop",
+        "durationInMs": 245000,
+        "likes": 88000,
+        "genre": {
+            "key": "edm",
+            "label": "EDM"
+        }
+    },
+    {
+        "id": "s8",
+        "title": "So What",
+        "artists": [
+            "Miles Davis"
+        ],
+        "image": "https://images.unsplash.com/photo-1415201364774-f6f0bb35f28f?w=100&h=100&fit=crop",
+        "durationInMs": 562000,
+        "likes": 74000,
+        "genre": {
+            "key": "jazz",
+            "label": "Jazz"
+        }
+    },
+    {
+        "id": "s9",
+        "title": "Levitating",
+        "artists": [
+            "Dua Lipa"
+        ],
+        "image": "https://images.unsplash.com/photo-1459749411175-04bf5292ceea?w=100&h=100&fit=crop",
+        "durationInMs": 203000,
+        "likes": 98000,
+        "genre": {
+            "key": "pop",
+            "label": "Pop"
+        }
+    },
+    {
+        "id": "s10",
+        "title": "Moonlight Sonata",
+        "artists": [
+            "Ludwig van Beethoven"
+        ],
+        "image": "https://images.unsplash.com/photo-1520523839897-bd0b52f945a0?w=100&h=100&fit=crop",
+        "durationInMs": 390000,
+        "likes": 89000,
+        "genre": {
+            "key": "blues",
+            "label": "Blues"
+        }
+    },
+    {
+        "id": "s11",
+        "title": "God's Plan",
+        "artists": [
+            "Drake"
+        ],
+        "image": "https://images.unsplash.com/photo-1484755560615-a4c64e778a6c?w=100&h=100&fit=crop",
+        "durationInMs": 199000,
+        "likes": 132000,
+        "genre": {
+            "key": "hiphop",
+            "label": "Hip Hop"
+        }
+    },
+    {
+        "id": "s12",
+        "title": "Hotel California",
+        "artists": [
+            "Eagles"
+        ],
+        "image": "https://images.unsplash.com/photo-1485579149621-3123dd979885?w=100&h=100&fit=crop",
+        "durationInMs": 391000,
+        "likes": 125000,
+        "genre": {
+            "key": "rock",
+            "label": "Rock"
+        }
+    },
+    {
+        "id": "s13",
+        "title": "Lean On",
+        "artists": [
+            "Major Lazer",
+            "DJ Snake"
+        ],
+        "image": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=100&h=100&fit=crop",
+        "durationInMs": 176000,
+        "likes": 92000,
+        "genre": {
+            "key": "edm",
+            "label": "EDM"
+        }
+    },
+    {
+        "id": "s14",
+        "title": "Earned It",
+        "artists": [
+            "The Weeknd"
+        ],
+        "image": "https://images.unsplash.com/photo-1462965326201-d02e4f455804?w=100&h=100&fit=crop",
+        "durationInMs": 252000,
+        "likes": 76000,
+        "genre": {
+            "key": "pop",
+            "label": "Pop"
+        }
+    },
+    {
+        "id": "s15",
+        "title": "Humble",
+        "artists": [
+            "Kendrick Lamar"
+        ],
+        "image": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=100&h=100&fit=crop",
+        "durationInMs": 177000,
+        "likes": 118000,
+        "genre": {
+            "key": "hiphop",
+            "label": "Hip Hop"
+        }
+    },
+    {
+        "id": "s16",
+        "title": "Despacito",
+        "artists": [
+            "Luis Fonsi",
+            "Daddy Yankee"
+        ],
+        "image": "https://images.unsplash.com/photo-1504898770365-14faca6a7320?w=100&h=100&fit=crop",
+        "durationInMs": 228000,
+        "likes": 145000,
+        "genre": {
+            "key": "pop",
+            "label": "Pop"
+        }
+    },
+    {
+        "id": "s17",
+        "title": "Fly Me to the Moon",
+        "artists": [
+            "Frank Sinatra"
+        ],
+        "image": "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=100&h=100&fit=crop",
+        "durationInMs": 235000,
+        "likes": 96000,
+        "genre": {
+            "key": "jazz",
+            "label": "Jazz"
+        }
+    },
+    {
+        "id": "s18",
+        "title": "Cruel Summer",
+        "artists": [
+            "Taylor Swift"
+        ],
+        "image": "https://images.unsplash.com/photo-1484755560615-a4c64e778a6c?w=100&h=100&fit=crop",
+        "durationInMs": 178000,
+        "likes": 138000,
+        "genre": {
+            "key": "pop",
+            "label": "Pop"
+        }
+    },
+    {
+        "id": "s19",
+        "title": "Best Part",
+        "artists": [
+            "Daniel Caesar",
+            "H.E.R."
+        ],
+        "image": "https://images.unsplash.com/photo-1459749411175-04bf5292ceea?w=100&h=100&fit=crop",
+        "durationInMs": 217000,
+        "likes": 83000,
+        "genre": {
+            "key": "blues",
+            "label": "Blues"
+        }
+    },
+    {
+        "id": "s20",
+        "title": "Electric Feel",
+        "artists": [
+            "MGMT"
+        ],
+        "image": "https://images.unsplash.com/photo-1485579149621-3123dd979885?w=100&h=100&fit=crop",
+        "durationInMs": 227000,
+        "likes": 72000,
+        "genre": {
+            "key": "rock",
+            "label": "Rock"
+        }
+    }
+]
