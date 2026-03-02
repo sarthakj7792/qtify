@@ -1,7 +1,7 @@
 {
     "framework": "create-react-app",
     "installCommand": "npm install",
-    "buildCommand": "react-scripts build",
+    "buildCommand": "NODE_OPTIONS='--openssl-legacy-provider' react-scripts build",
     "outputDirectory": "build",
     "rewrites": [
         {
