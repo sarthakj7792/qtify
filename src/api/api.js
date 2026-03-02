@@ -1,11 +1,13 @@
 import axios from "axios";
 
+const BACKEND_URL = "https://qtify-backend.labs.crio.do";
+
 const config = {
     endpoint: {
-        TopAlbum: "/api/albums/top",
-        NewAlbum: "/api/albums/new",
-        Songs: "/api/songs",
-        genres: "/api/genres",
+        TopAlbum: `${BACKEND_URL}/albums/top`,
+        NewAlbum: `${BACKEND_URL}/albums/new`,
+        Songs: `${BACKEND_URL}/songs`,
+        genres: `${BACKEND_URL}/genres`,
     },
 };
 
